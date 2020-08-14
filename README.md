@@ -29,9 +29,3 @@ O grupo é composto por 10 pessoas distribuídas em 4 stacks de conhecimento: de
 
 ## 💻 Compatibilidade de Browser.
 Desenhado para Google Chrome.
-
-## ⏭️ Próximos passos.
-
-🩹 tornar responsivo **```!important;```**
-
-➕ animação scroll
