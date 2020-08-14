@@ -6,7 +6,7 @@
 </h3>
 
 ## 👩‍💻 Sobre Mim.
-Estudando web development front-end.
+Estudando web development.
 
 Entre em contato comigo [aqui](https://linkedin.com/in/nolascobruna) 🙋‍♀️
 
