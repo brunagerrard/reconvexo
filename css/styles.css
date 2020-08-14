@@ -3,6 +3,7 @@
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -301,6 +302,10 @@ ul li a i {
   align-items: center;
 }
 
+[data-slide-nav] button.active {
+  background: #ab85c7;
+}
+
 /*modais*/
 .modal-dialog {
   width: 700px;
@@ -374,9 +379,34 @@ button.close {
   color: #4b5d68;
 }
 
+/*encontros*/
+
 .meetings > img {
   width: 100vw;
   margin-top: 1rem;
+}
+
+.meetings p {
+  margin: 1rem 8.75rem;
+  text-align: justify;
+}
+
+.meet-info {
+  font-family: 'Nunito';
+  font-size: 1rem;
+  border-left: 3px solid #ab85c7;
+  padding-left: 1.4rem;
+}
+
+.texto-meet {
+  font-family: 'Montserrat';
+  font-size: .9rem;
+}
+
+.destaque-pequeno {
+  font-weight: 600;
+  font-size: .9rem;
+  color: #ab85c7;
 }
 
 /*Footer*/
