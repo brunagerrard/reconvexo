@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+
+html {
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: #fff;
+  height: 96px;
+  box-shadow: 0 2px 2px rgba(132, 132, 132, 0.2);
+}
+
+nav a img {
+  width: 161px;
+  margin-left: 124px;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar-nav {
+  margin-left: 30%;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  color: #000;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid #7673ac;
+}
+.container-fluid {
+  margin: 50px 0 0 0;
+  padding: 0;
+}
+
+section ~ span {
+  margin-top: -100px;
+  padding-bottom: 100px;
+  display: block;
+}
+
+.texto-landing {
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  color: #060606;
+  padding: 4rem;
+  margin-top: 150px;
+  margin-left: 5rem;
+  width: 413px;
+  line-height: 29px;
+}
+
+.texto-landing > h1 {
+  color: #4ed822;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.texto-landing > h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.botao-verde {
+  outline: none;
+  border: 2px solid #4ed822;
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 180px;
+  border-radius: 8px;
+  font-family: "Nunito";
+  color: #4ed822;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 60px;
+  padding: 0 20px;
+}
+
+.botao-verde:hover {
+  cursor: pointer;
+  background-color: #4ed822;
+  color: #fff;
+}
+
+.imagem-landing {
+  margin-top: 150px;
+}
+
+#sobre {
+  width: 100vw;
+}
+
+.divisor-secao {
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+
+.divisor-secao img {
+  height: 98px;
+  z-index: 0;
+}
+
+.divisor-secao .secao {
+  font-family: "Nunito";
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  position: absolute;
+  right: 10px;
+  color: rgba(34, 34, 34, 0.1);
+  background-color: #fff;
+  padding-left: 20px;
+}
+
+#pilares {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  margin: 5rem auto;
+}
+
+.pilar1,
+.pilar2,
+.pilar3 {
+  width: 373px;
+  height: 260px;
+}
+
+.pilar1 {
+  background: url("/assets/imgs/brain.png") no-repeat;
+}
+
+.pilar2 {
+  background: url("/assets/imgs/challenge.png") no-repeat;
+}
+
+.pilar3 {
+  background: url("/assets/imgs/book.png") no-repeat;
+}
+
+.texto-pilar {
+  font-family: "Montserrat";
+  width: 160px;
+  margin-top: 50px;
+  margin-left: 170px;
+}
+
+.titulo-pequeno {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 22px;
+  color: #ab85c7;
+}
+
+.titulo-pequeno + p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #4b5d68;
+}
+
+/*Nossa Equipe*/
+.bloco-1 {
+  background: url("/assets/imgs/BG-\ HIPSTER.svg");
+  width: 100%;
+  height: 600px;
+}
+
+.bloco-2 {
+  background: url("/assets/imgs/bgHustlers.svg");
+  width: 100%;
+  height: 600px;
+}
+
+.bloco-3 {
+  background: url("/assets/imgs/BG\ -\ HACKER.svg");
+  width: 100%;
+  height: 600px;
+}
+
+.bloco-4 {
+  background: url("/assets/imgs/BG\ -\ HYPER.svg");
+  width: 100%;
+  height: 600px;
+}
+
+.bloco-4 img.icone-hyper,
+.bloco-3 img.icone-hackers,
+.bloco-2 img.icone-hustlers,
+.bloco-1 img.icone-hipster {
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.equipe ul.hipster li,
+.equipe ul.hustlers li {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  margin-top: 65px;
+}
+
+.equipe ul.hyper li,
+.equipe ul.hacker li {
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin-top: 65px;
+}
+
+.equipe ul.hyper li img,
+.equipe ul.hacker li img,
+.equipe ul.hipster li img,
+.equipe ul.hustlers li img {
+  width: 184px;
+  height: 184px;
+}
+
+.equipe ul.hyper li p,
+.equipe ul.hacker li p,
+.equipe ul.hipster li p,
+.equipe ul.hustlers li p {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+}
+
+.fab {
+  margin: 5px;
+}
+.equipe img:hover {
+  cursor: pointer;
+}
+
+[data-target] + p {
+  margin-top: 1rem;
+}
+
+ul li a i {
+  font-size: 1.8rem;
+  color: #7673ac;
+}
+
+.aviso {
+  font-family: "Nunito";
+  font-size: 0.8rem;
+  color: #7673ac;
+  text-align: right;
+  margin-right: 10px;
+}
+
+/*Slide Nosso Squad*/
+
+[data-slide] {
+  position: relative;
+}
+[data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+[data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+[data-slide-nav] {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+[data-slide-nav] button {
+  cursor: pointer;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 4px;
+  border: none;
+  padding: 0px;
+  border-radius: 10px;
+  text-indent: -9999px;
+  overflow: none;
+  background-color: #7673ac;
+  align-items: center;
+}
+
+/*modais*/
+.modal-dialog {
+  width: 700px;
+}
+
+.modal-content {
+  outline: none;
+  border: none;
+  box-shadow: 10px 10px #ab85c7;
+}
+
+.modal-header {
+  background-color: #7673ac;
+  align-items: center;
+}
+
+.modal-title {
+  font-family: "Nunito";
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.modal-body {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 0.8rem;
+  padding: 1rem 3rem;
+}
+
+button.close {
+  color: #fff;
+  opacity: 1;
+  margin-right: 1rem;
+}
+
+.modal-body .lead {
+  color: #ab85c7;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+  margin-left: 0.5rem;
+}
+
+/*sobre nós*/
+#fundo-sobre {
+  width: 80vw;
+  margin: 0 auto;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 15px;
+  display: flex;
+}
+
+#fundo-sobre img {
+  margin: 5rem;
+  width: 376px;
+  height: 398px;
+}
+
+#texto-sobre {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1rem;
+  color: #7673ac;
+  margin: 5rem 5rem 5rem 0;
+}
+
+#quote {
+  font-size: 0.8rem;
+  text-align: right;
+  color: #4b5d68;
+}
+
+.meetings > img {
+  width: 100vw;
+  margin-top: 1rem;
+}
+
+/*Footer*/
+
+/*Footer*/
+
+.footer {
+  width: 100%;
+  padding: 20px 0;
+  display: inline-block;
+}
+
+.footer:before {
+  content: "";
+  display: block;
+  width: 90vw;
+  height: 2px;
+  background: #7673ac;
+  margin: 3rem auto 1.5rem;
+}
+
+.footer div a img {
+  width: 161px;
+  height: 96px;
+  border-right: 2px solid #7673ac;
+  padding-right: 1.25rem;
+  margin-left: 8.75rem;
+}
+
+.footer div h3.inspiration {
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: .5rem;
+}
+
+.footer div p {
+  font-family: 'Montserrat';
+  font-size: .8rem;
+  font-weight: 300;
+}
+
+.footer div a img.up-arrow {
+  position: absolute;
+  width: 4.4rem;
+  height: 4.4rem;
+  border: 3px solid #7673ac;
+  display: block;
+  padding: .6rem;
+  right: 8.75rem;
+  margin-top: 1.25rem;
+}
+
+.footer div a img.up-arrow:hover {
+  border: none;
+}
+
+.copy {
+  width: 100%;
+  height: 3.6rem;
+  background: #7673ac;
+}
+.copy p {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: .75rem;
+  padding-top: 1.6rem;
+  text-align: center;
+}

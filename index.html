@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Dossiê do grupo Reconvexo, integrante da 35ª edição do Gama Experience"
+    />
+
+    <!--estilos bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <!--meus estilos-->
+    <link rel="stylesheet" href="/css/grid.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!--scripts-->
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <script src="https://kit.fontawesome.com/4f7d37b381.js" crossorigin="anonymous"></script>
+
+    <title>Dossiê do grupo Reconvexo</title>
+  </head>
+
+  <body>
+    <!--navegação-->
+
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/imgs/logo.svg" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Abrir navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#qualidades">Nosso Jeito</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#equipe">O Time</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#meetings">Meetings</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid">
+      <section class="d-flex">
+        <span id="home">&nbsp;</span>
+        <div class="texto-landing">
+          <h1>Reconvexo.</h1>
+          <h2>Somos inspirados por Bethânia e Caetano.</h2>
+          <p>Representamos culturas, crenças, lugares e conhecimentos.</p>
+          <button class="botao-verde" onClick="document.getElementById('qualidades').scrollIntoView();">Saiba mais</button>
+        </div>
+        <div class="imagem-landing">
+          <img
+            src="/assets/imgs/landing.png"
+            alt="Desenho de duas mulheres estudando"
+          />
+        </div>
+      </section>
+
+      <section>
+        <span id="qualidades">&nbsp;</span>
+        <div class="divisor-secao">
+          <img src="/assets/imgs/divisor.svg" />
+          <p class="secao">NOSSAS QUALIDADES</p>
+        </div>
+        <div id="pilares" class="container">
+          <div class="pilar1">
+            <div class="texto-pilar">
+              <p class="titulo-pequeno">Multipotencialidade</p>
+              <p>Uma equipe que não se contenta em aprender uma única skill.</p>
+            </div>
+          </div>
+
+          <div class="pilar2">
+            <div class="texto-pilar">
+              <p class="titulo-pequeno">Buscamos sair da zona de conforto</p>
+              <p>
+                Ficar parado não é algo que faz parte do nosso dia-a-dia. Temos
+                desejo de mudar.
+              </p>
+            </div>
+          </div>
+
+          <div class="pilar3">
+            <div class="texto-pilar">
+              <p class="titulo-pequeno">Desejo de aprender</p>
+              <p>
+                Saber sobre diversos assuntos não nos faz perder a vontade de
+                aprender.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="equipe" data-slite="team">
+        <span id="equipe">&nbsp;</span>
+        <div class="divisor-secao">
+          <img src="/assets/imgs/divisor.svg" />
+          <p class="secao">NOSSO SQUAD</p>
+        </div>
+        <p class="aviso">
+          clique nas fotos de cada um para conhecer nossos sonhos, expectativas e aprendizados.
+        </p>
+
+        <div class="team" data-slide="team">
+          <div class="bloco-1">
+            <img
+              src="/assets/imgs/hipster-ICONE.png"
+              alt=" icone hipster"
+              class="icone-hipster"
+            />
+            <ul class="hipster">
+              <li>
+                <img src="assets/imgs/isadora.png" alt="Foto Isadora" data-toggle="modal" data-target="#aboutisadora"/>
+                <p>Isadora F. Cavalcante</p>
+
+                
+
+                <a href=" https://www.github.com/isadorafc/
+
+                <a href=" https://www.linkedin.com/in/isadorafc/
+
+                " target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.behance.net/isadoraferreira
+                " target="_blank">
+                  <i class="fab fa-behance-square"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/isadorafc/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+
+              </li>
+              <li>
+                <img src="assets/imgs/mari.png" alt="Foto Marianne" data-toggle="modal" data-target="#aboutmari" />
+                <p>Marianne L. Eugênio</p>
+
+                <a href="https://www.medium.com/@oimarianne" target="_blank">
+                  <i class="fab fa-medium"></i>
+                </a>
+                <a href="https://www.behance.net/mariluizae" target="_blank">
+                  <i class="fab fa-behance-square"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/marianneluizaeugenio" target="_blank">
+
+                <a href="medium.com/@oimarianne" target="_blank">
+                  <i class="fab fa-medium"></i>
+                </a>
+                <a href="behance.net/mariluizae" target="_blank">
+                  <i class="fab fa-behance-square"></i>
+                </a>
+                <a href="linkedin.com/in/marianneluizaeugenio" target="_blank">
+
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <img src="assets/imgs/william.png" alt="Foto William" data-toggle="modal" data-target="#aboutwilliam" />
+                <p>William Marangon</p>
+               
+                <a href="https://www.linkedin.com/in/william-vieira-a1173298/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="bloco-2">
+            <img
+              src="/assets/imgs/hustler-ICONE.png"
+              alt=" icone hustlers"
+              class="icone-hustlers"
+            />
+            <ul class="hustlers">
+              <li>
+                <img src="assets/imgs/FELIPE.png" alt="Foto Felipe"  data-toggle="modal" data-target="#aboutfelipe"/>
+                <p>Felipe M. Tolentino</p>
+                
+                <a href="https://www.linkedin.com/in/felipe-mg/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <img src="assets/imgs/JESSICA.png" alt="Foto Jéssica" data-toggle="modal" data-target="#aboutjessica" />
+                <p>Jéssica L. Talaisys</p>
+                
+                <a href=" https://www.linkedin.com/in/jessica-talaisys/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <img src="assets/imgs/TIAGO.png" alt="Foto Tiago" data-toggle="modal" data-target="#abouttiago" />
+                <p>Tiago Yuji Lima Inoue</p>
+           
+                <a href=" https://www.linkedin.com/in/tiago-inoue">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="bloco-3">
+            <img
+              src="/assets/imgs/ICONE - HACKER.png"
+              alt=" icone hackers"
+              class="icone-hackers"
+            />
+            <ul class="hacker">
+              <li>
+                <img src="assets/imgs/BRUNA.png" alt="Foto Bruna" data-toggle="modal" data-target="#aboutbruna" />
+                <p>Bruna Nolasco</p>
+                <a href="https://github.com/brunagerrard" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nolascobruna/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <img src="assets/imgs/LUAN.png" alt="Foto Luan" data-toggle="modal" data-target="#aboutluan" />
+                <p>Luan Calil de Almeida Araújo</p>
+                <a href="https://github.com/luancalil" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+               
+                <a href="https://www.linkedin.com/in/luancalil/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="bloco-4">
+            <img
+              src="/assets/imgs/HYPER - ICONE.png"
+              alt=" icone hyper"
+              class="icone-hyper"
+            />
+            <ul class="hyper">
+              <li>
+                <img src="assets/imgs/Giovanna.png" alt="Foto Giovanna" data-toggle="modal" data-target="#aboutgio" />
+                <p>Giovanna M. Ximenes</p>
+              
+                <a href="https://www.linkedin.com/in/giovannaximenes/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <img src="assets/imgs/Henrique.png" alt="Foto Henrique"  data-toggle="modal" data-target="#abouthenrique"/>
+                <p>Henrique Estevam Lima</p>
+              
+                <a href="https://www.linkedin.com/in/henrique-estevam" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+     
+      
+
+      
+
+    <section>
+      <span id="sobre">&nbsp;</span>
+      <div class="divisor-secao">
+        <img src="/assets/imgs/divisor.svg" />
+        <p class="secao">QUEM SOMOS</p>
+      </div>
+      <div id="fundo-sobre">
+        <img src="/assets/imgs/sobre-img.png">
+        <div id="texto-sobre">
+          <blockquote id="quote" class="blockquote">
+            <p class="mb-0">"quem não é recôncavo e nem pode ser reconvexo", se refere a olhar para a sua própria cultura e não conseguir enxergar a si mesmo e, por isso, ser incapaz de reconhecer e enaltecer a riqueza dos demais.</p>
+            <footer class="blockquote-footer">Érika Freire</footer>
+          </blockquote>
+          
+          <p>Por isso somos Reconvexo.</p>
+          <p>Representando a mistura cantada por Maria Betânia, temos orgulho do caminho que percorremos e ansiamos por novas conquistas. Como Caetano, daremos uma resposta à altura de todos que nos criticaram, mostrando que nossa capacidade vai além dos julgamentos alheios.</p>
+          
+          <p>Somos Marianne, Isadora, William, Jéssica, Tiago, Felipe, Bruna, Calil, Henrique e Giovanna buscando novos horizontes. Desafiando nossos medos e gerando conexões capazes de impactar o mundo, mesmo que seja o nosso.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="meetings">
+      <span id="meetings">&nbsp;</span>
+      <div class="divisor-secao">
+        <img src="/assets/imgs/divisor.svg" />
+        <p class="secao">NOSSOS ENCONTROS</p>
+      </div>
+      <img src="/assets/imgs/printdomeet.jpg" alt="Print do 1º meeting do grupo Reconvexo.">
+    </section>
+
+    <!--modais-->
+    <div class="modal fade" id="aboutisadora" tabindex="-1" role="dialog" aria-labelledby="sobre Isadora" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">sobre Isadora</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Meu sonho é...</p>
+            <p>Me tornar uma pessoa que impacta na sociedade positivamente e também que ajuda as pessoas ao meu redor a se tornar pessoas melhores.</p>
+            <p class="lead">Quero aprender...</p>
+            <p>A ter mais atitude, expressar-me de forma assertiva, sobre o funcionamento do cerne da sociedade e suas políticas, sobre budismo e taoísmo, e por fim, sobre tecnologia, UX/UI e comunicação.</p>
+            <p class="lead">Posso ensinar...</p>
+            <p>Photoshop, After effects, a jogar lolzinho...</p>
+            <p class="lead">Em um ano estarei...</p>
+            <p>Graduada, em um emprego que eu goste e que me sinta inspirada, com uma moto para rodar por SP e visitando lugares legais desse Brasil.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="aboutmari" tabindex="-1" role="dialog" aria-labelledby="sobre Marianne" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" >sobre Marianne</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Meu sonho é...</p>
+            <p>Poder ajudar as pessoas com as possibilidades da tecnologia.</p>
+            <p class="lead">Quero aprender...</p>
+            <p>Programação, andar de bicicleta, pular corda, inglês fluente, a nadar.</p>
+            <p class="lead">Posso ensinar...</p>
+            <p>Photoshop, Illustrator, Indesign, Notion, Copywriting, a entender mapa-astral, fazer bolo, gestão de redes sociais, diagramação, senso estético, ADS, cultura pop.</p>
+            <p class="lead">Em um ano estarei...</p>
+            <p>Em um novo emprego, e com pelo menos um carimbo no passaporte, rs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="aboutwilliam" tabindex="-1" role="dialog" aria-labelledby="sobre William" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" >sobre William</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Meu sonho é...</p>
+            <p>Realizar objetivos pessoais e profissionais, sem nunca trocar isso por algo que deixe um sorriso no meu rosto.</p>
+            <p class="lead">Quero aprender...</p>
+            <p>Aumentar o meu escopo em UX/UI, mas essencialmente criar novas conexões com pessoas, culturas e experiencias que não teria oportunidade de outra forma.</p>
+            <p class="lead">Posso ensinar...</p>
+            <ul>
+              <li>Cinema: Mise en scène, Fotografia, Enquadramento...</li>
+              <li>Café: Espresso, Macchiato, Ristretto, Latte, Cappuccino...</li>
+              <li>Dev: Javascript, HTML, CSS, React, Vue, Boostrap, SQL...</li>
+              <li>UX/UI: Figma, Adobe XD, Hotjar, Invision...</li>
+            </ul>
+            <p class="lead">Em um ano estarei...</p>
+            <p>Realizando sonhos, efetivando projetos, conhecendo novas pessoas  e lugares, mas principalmente evoluindo e me redescobrindo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="aboutfelipe" tabindex="-1" role="dialog" aria-labelledby="sobre Felipe" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" >sobre Felipe</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Meu sonho é...</p>
+            <p>Impactar pessoas em meu círculo de relacionamento e buscar desenvolver relações duradouras, de forma que as pessoas possam ter uma ótima experiência nessa jornada junto de mim. Gostaria de conhecer lugares e desenvolver experiências por todo o mundo e fazer novos amigos, deixando sempre algo positivo por onde eu passar.</p>
+            <p class="lead">Quero aprender...</p>
+            <p>Como me desenvolver como vendedor, com novas técnicas de vendas, além de aprimorar minhas habilidades com foco na experiência e impacto positivo para com meus clientes.</p>
+            <p class="lead">Posso ensinar...</p>
+            <p>Como vender gerando valor ao cliente com foco em desenvolver negociações duradouras e como identificar oportunidades em meio a cenários diversos. Como operacionalizar um CRM e efetuar uma gestão de negócios com maior assertividade.</p>
+            <p class="lead">Em um ano estarei...</p>
+            <ul>
+              <li>Com uma posição de destaque em uma companhia que me possibilite desenvolver relações duradouras e uma carreira de sucesso.</li>
+              <li>Em projetos que impactem positivamente a vida de diversas pessoas e que gerem valor na sociedade.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="aboutjessica" tabindex="-1" role="dialog" aria-labelledby="sobre Jessica" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" >sobre Jéssica</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Meu sonho é...</p>
+            <p>Conhecer diferentes culturas ao redor do mundo e ser uma pessoa que impacte positivamente a vida e as experiências de quem cruzar meu caminho</p>
+            <p class="lead">Quero aprender...</p>
+            <p>Técnicas e novas tecnologias de venda; um pouco (ou muito!) sobre marketing digital; Como vender sendo o mais empático e humano possível.</p>
+            <p class="lead">Posso ensinar...</p>
+            <p>Software Sophia; Como lidar com diferentes perfis para realização de uma mesma atividade; Ábaco (Soroban); Jogos de lógica (Sudoku, Kakuro, Hashi... :P).</p>
+            <p class="lead">Em um ano estarei...</p>
+            <p>Desenvolvendo projetos que me façam crescer como profissional e trocando experiências com pessoas que me desafiem a encarar novas oportunidades de aprendizado.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="abouttiago" tabindex="-1" role="dialog" aria-labelledby="sobre Tiago" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" >sobre Tiago</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Meu sonho é...</p>
+            <p>Viver sustentavelmente.</p>
+            <p class="lead">Quero aprender...</p>
+            <p>Sobre Machine Learning e os impactos na forma como produzimos e vendemos produtos e conteúdo.</p>
+            <p class="lead">Posso ensinar...</p>
+            <p>Teoria de frameworks de vendas, malabares com bolinhas básico, berimbau e fotografia.</p>
+            <p class="lead">Em um ano estarei...</p>
+            <p>Sendo promovido a Executivo de Contas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="aboutbruna" tabindex="-1" role="dialog" aria-labelledby="sobre Bruna" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" >sobre Bruna</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Meu sonho é...</p>
+            <p>Um dia trabalhar em solo inglês relacionando comunidade, futebol e tecnologia. Melhor ainda se for para o Liverpool FC, meu time do coração há 15 anos!</p>
+            <p class="lead">Quero aprender...</p>
+            <p>Absolutamente tudo. Quero ser aquela pessoa a quem todos recorrem em momentos de conflito das mais variadas situações! Tipo, "Bruna, derramei dendê no tapete, como tira?", e eu vou dizer: "jogue 1/2 colher de qboa e esfregue uma banda de limão que sai*". Só que pra tudo.</p>
+            <p class="small">*obs.: receita não testada.</p>
+            <p class="lead">Posso ensinar...</p>
+            <p>A fazer um caruru impecável, conversação em inglês e cuidados com cachos.</p>
+            <p class="lead">Em um ano estarei...</p>
+            <p>Talvez em Liverpool, talvez na Bahia, talvez nesse mesmo bairro que tô agora, mas com uma nova perspectiva. Não brinco de adivinhar o futuro, só posso me manter em constante evolução :)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="aboutluan" tabindex="-1" role="dialog" aria-labelledby="sobre Luan" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" >sobre Luan</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Meu sonho é...</p>
+            <p>Ser independente, abrir uma confeitaria e poder ser um desenvolvedor de renome.</p>
+            <p class="lead">Quero aprender...</p>
+            <p>Quero aprender mais sobre desenvolvimento front-end, um pouco mais sobre marketing e UX designer.</p>
+            <p class="lead">Posso ensinar...</p>
+            <p>HTML, CSS, JS, cantar opera XD.</p>
+            <p class="lead">Em um ano estarei...</p>
+            <p>Morando sozinho e trabalhando em uma das minhas empresas dos sonhos XD.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="aboutgio" tabindex="-1" role="dialog" aria-labelledby="sobre Giovanna" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" >sobre Giovanna</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Meu sonho é...</p>
+            <p>Ser uma pessoa que impacta na vida das pessoas.</p>
+            <p class="lead">Quero aprender...</p>
+            <p>A ter uma comunicação mais assertiva e novas ferramentas de marketing.</p>
+            <p class="lead">Posso ensinar...</p>
+            <p>Um pouco de política, ferramentas de marketing e como editar fotos com preset no lightroom.</p>
+            <p class="lead">Em um ano estarei...</p>
+            <p>Em um emprego que me valorize e me mantenha motivada.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="abouthenrique" tabindex="-1" role="dialog" aria-labelledby="sobre Henrique" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" >sobre Henrique</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Meu sonho é...</p>
+            <p>Conhecer pelo menos metade dos países do mundo.</p>
+            <p class="lead">Quero aprender...</p>
+            <p>Tudo que for possível na área de Marketing Digital como também um pouco das outras áreas.</p>
+            <p class="lead">Posso ensinar...</p>
+            <p>Assuntos financeiros, sobre compras, sobre auriculoterapia :-)</p>
+            <p class="lead">Em um ano estarei...</p>
+            <p>Novo cargo no Banco ou cargo de liderança numa Start Up</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer>
+      <div class="footer">
+        <div class="container-xl">
+          <div class="container-sm">
+            <a href="#home"
+              ><img
+                src="/assets/imgs/logo.svg"
+                alt="logo Reconvexo"
+                class="grid-8"
+            /></a>
+
+            <h3 class="inspiration grid-8">Um projeto para a vida.</h3>
+            <p class="grid-16">Seu olho me olha, mas não me pode alcançar<br>
+            Não tenho escolha, careta, vou descartar...<br>            
+            Quem não é recôncavo e nem pode ser reconvexo.</p>
+
+            <h3 class="inspiration grid-8">Um projeto para vida.</h3>
+            <p class="grid-16">Quem nao é Reconcavo e nem pode ser Reconvexo</p>
+
+          </div>
+
+          <a href="#home">
+            <img
+              class="up-arrow"
+              src="/assets/imgs/up-arrow.jpg"
+              alt="seta para subir para começo"
+          /></a>
+        </div>
+      </div>
+
+      <div class="copy">
+        <div class="container-xl">
+
+          <p>Um projeto Reconvexo | Alguns direitos reservados</p>
+          <p>Um projeto Reconvexo-Alguns direitos reservados</p>
+
+        </div>
+      </div>
+    </footer>
+    <!--scripts bootstrap-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/simple-slide.js"></script>
+    <script src="/js/slide.js"></script>
+  </body>
+</html>
